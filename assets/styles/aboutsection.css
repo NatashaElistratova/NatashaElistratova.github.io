@@ -1,15 +1,14 @@
 .about-section {
   display: grid;
   grid-template-rows: 15% 78%;
-  grid-template-columns: 2% 20% 60% 1fr;
+  grid-template-columns: 2% 15% 60%;
   align-items: center;
-  grid-row-gap: 2%;
+  grid-row-gap: 1%;
   grid-column-gap: 2%;
 
-  background: url(/assets/img/about/clouds.svg);
+  background: url(/assets/img/about/clouds.svg) no-repeat;
   background-size: cover;
   width: 102%;
-  background-color: #447695;
 }
 
 .about__image {
@@ -27,10 +26,11 @@
   font-size: 3em;
   text-transform: uppercase;
   font-style: italic;
-  color: rgb(191, 230, 239);
-  place-self: start;
-  margin-left: 10%;
-  
+  color: #bfe6ef;
+
+  margin: initial;
+  justify-self: center;
+  align-self: flex-start;
 }
 .about__text {
   grid-column: 3;
@@ -46,4 +46,15 @@
   border-radius: 10px;
   border: 5px solid #fff;
   box-shadow: 2px 1px 5px #999494;
+}
+
+#viewmore {
+  display: none;
+}
+
+.viewbutton {
+  background: transparent;
+  font-style: inherit;
+  color: rgb(191, 230, 239);
+  border: hidden;
 }
