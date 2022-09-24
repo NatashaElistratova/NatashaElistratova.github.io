@@ -30,6 +30,7 @@
   color: rgb(191, 230, 239);
   place-self: start;
   margin-left: 10%;
+  
 }
 .about__text {
   grid-column: 3;
