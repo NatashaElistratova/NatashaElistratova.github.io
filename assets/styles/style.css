@@ -6,14 +6,15 @@
     url("/assets/fonts/font/SanghaKali-Regular.woff") format("woff");
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #447695;
   font-size: 22px;
   line-height: 1.7em;
   font-style: italic;
-}
-* {
-  box-sizing: border-box;
 }
 
 ul {
