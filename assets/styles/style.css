@@ -224,6 +224,7 @@ ul a:hover {
 
 .main-section__legend {
   background-color: #65b7ce;
+  width: 100vw;
 }
 
 .servises__description {
