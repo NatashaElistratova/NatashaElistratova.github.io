@@ -99,15 +99,19 @@ li a:hover {
 }
 
 .body__h2_uppercase {
-  line-height: 2em;
-  font-family: "SanghaKali", sans-serif;
   font-size: 66px;
+  margin: 50px;
+  line-height: 2em;
+}
+
+.section-title {
+  font-family: "SanghaKali", sans-serif;
   text-transform: uppercase;
   text-align: center;
   font-style: italic;
   font-weight: 400;
-  margin: 50px;
 }
+
 .servises__main-title:hover {
   color: white;
 }
@@ -117,14 +121,9 @@ li a:hover {
 }
 
 .body__h3_uppercase {
-  line-height: 2em;
-  font-family: "SanghaKali", sans-serif;
   font-size: 42px;
-  text-transform: uppercase;
-  text-align: center;
-  font-style: italic;
-  font-weight: 400;
   margin: 10px;
+  line-height: 2em;
 }
 
 .body__h3_uppercase:hover {
